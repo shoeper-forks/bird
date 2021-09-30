@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM ubuntu:trusty-20190425
 ENV DEBIAN_FRONTEND noninteractive
 RUN sed -i 's/deb.debian.org/ftp.cz.debian.org/' /etc/apt/sources.list
 RUN apt-get -y update
